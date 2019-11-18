@@ -8,7 +8,6 @@ The assumption is that the table schema in question looks like this(see table st
 |id | post_date  | text         |
 |-- | ---------  | -------------|
 | 1 | 2019-11-10 | xsomething   |
---- | ---------  | -------------|
 | 2 | 2019-11-10 | ysomething   |
 
 
