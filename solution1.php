@@ -52,7 +52,7 @@ require 'data.php';
 $con = dbconnect();
 
 /**query table posts using CASE statements to get posts
-whose dates fall within predefined date ranges.
+whose dates fall within predefined date ranges..
 https://www.sqlshack.com/case-statement-in-sql/
 **/
  
