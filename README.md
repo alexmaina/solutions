@@ -23,19 +23,17 @@ The assumption is that the table schema in question looks like this(see table st
 The desired results is an array with the following structure
 
 
-['2019-01-01' AND '2019-01-11'] => Array
-        (
-            [0] => Array
+`
 Array
 (
-    ['2019-11-10' AND '2019-11-13'] => Array
+   {'2019-11-10' AND '2019-11-13'] => Array
         (
-            [0] => Array
+            {0] => Array
                 (
-                    [id] => 1
-                    [post_id] => 1
-                    [text] => xsomething
-                    [post_date] => 2019-11-10
+                    {id] => 1
+                   {post_id] => 1
+                   {text] => xsomething
+                    {post_date] => 2019-11-10
                 )
 
             [1] => Array
