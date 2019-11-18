@@ -21,6 +21,8 @@ The assumption is that the table schema in question looks like this(see table st
 > Table1. posts
 
 The desired results is an array with the following structure
+
+
 `
             [0] => Array
                 (
