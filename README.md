@@ -33,6 +33,14 @@ The desired results is an array with the following structure
                     [post_date] => 2019-11-10
                 )
 
+            [0] => Array
+                (
+                    [id] => 1
+                    [post_id] => 1
+                    [text] => xsomething
+                    [post_date] => 2019-11-10
+                )
+              
             [1] => Array
                 (
                     [id] => 2
@@ -40,7 +48,7 @@ The desired results is an array with the following structure
                     [text] => ysomething
                     [post_date] => 2019-11-10
                 )
-
+                
             [2] => Array
                 (
                     [id] => 3
