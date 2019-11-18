@@ -1,3 +1,4 @@
+<?php
 require 'data.php';
 //connect to db
 $con = dbconnect();
