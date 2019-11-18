@@ -3,6 +3,8 @@
 
 A question was raised in stack overflow on how to group records in a table by date_range and create a multi-dimensional array based on these groups.Here is the [question] (https://stackoverflow.com/questions/58856118/group-by-date-range-in-mysql-and-php/58856724#58856724)
 
+[GitHub Pages](https://pages.github.com/).
+
 The assumption is that the table schema in question looks like this(see table structure below named > posts):
 
 |id | post_date  | text         |
