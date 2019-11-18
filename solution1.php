@@ -65,8 +65,7 @@ $sql1 = "SELECT id AS post_id,text,post_date,
 	THEN 2 
 		Else 1 END AS date_range_id FROM posts";
 
-/**
-The MySQL query above named $sql1 yields a table structure below:
+/**The MySQL query above named $sql1 yields a table structure below:
 
 +----+-------------+------------+---------------+
 | id | text        | post_date  | date_range_id |
