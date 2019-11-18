@@ -130,8 +130,9 @@ foreach($array as $y => $z){
 }
 
 //create an associative array $r of $array5[]
+$l=1
 foreach($array5 as $y => $z){
-	$r[] = ['id' => $x++,
+	$r[] = ['id' => $l++,
 		'post_id'=>$z[0],
 		'text' =>$z[1],
 		'post_date' => $z[2]];
