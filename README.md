@@ -9,32 +9,20 @@ The assumption is that the table schema in question looks like this(see table st
 |-- | ---------  | -------------|
 | 1 | 2019-11-10 | xsomething   |
 | 2 | 2019-11-10 | ysomething   |
+| 3 | 2019-11-11 | ysomething   |
+| 4 | 2019-11-12 | ysomething   |
+| 5 | 2019-11-13 | xysomething  |
+| 6 | 2019-01-01 | xysomething  |
+| 7 | 2019-01-05 | xysomething  |
+| 8 | 2019-01-06 | ysomething   |
+| 9 | 2019-01-10 | xsomething   |
+|10 | 2019-01-11 | ysomething   |
 
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-`
-|id | post_date  | text         |
-|-- | ---------  | -------------|
-| 1  	| 2019-11-10 	| xsomething  	|
-| 2  	| 2019-11-10 	| ysomething  	|
-| 3  	| 2019-11-11 	| ysomething  	|
-| 4  	| 2019-11-12 	| ysomething  	|
-| 5  	| 2019-11-13 	| xysomething 	|
-| 6  	| 2019-01-01 	| xysomething 	|
-| 7  	| 2019-01-05 	| xysomething 	|
-| 8  	| 2019-01-06 	| ysomething  	|
-| 9  	| 2019-01-10 	| xsomething  	|
-| 10 	| 2019-01-11 	| ysomething  	|
-`
 > Table1. posts
 
 The desired results is an array with the following structure:
-
-`Array
+`
+Array
 (
     ['2019-11-10' AND '2019-11-13'] => Array
         (
