@@ -25,7 +25,8 @@ The desired results is an array with the following structure:
 
    $array =  '['2019-11-10' AND '2019-11-13'] => Array
         (
-       
+       `$array =  '['2019-11-10' AND '2019-11-13'] => Array
+        (
             [0] => Array
                 (
                     [id] => 1
