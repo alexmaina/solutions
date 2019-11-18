@@ -12,6 +12,10 @@ The assumption is that the table schema in question looks like this(see table st
 | 2 | 2019-11-10 | ysomething   |
 
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 `
 | id 	| post_date  	| text        	|
