@@ -15,8 +15,6 @@ Array
                     [post_date] => 2019-11-10
                 )
 
-Array
-(
     ['2019-11-10' AND '2019-11-13'] => Array
         (
             0] => Array
