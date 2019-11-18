@@ -21,18 +21,9 @@ The assumption is that the table schema in question looks like this(see table st
 > Table1. posts
 
 The desired results is an array with the following structure
-`Array
-(
+`
     ['2019-11-10' AND '2019-11-13'] => Array
         (
-            [0] => Array
-                (
-                    [id] => 1
-                    [post_id] => 1
-                    [text] => xsomething
-                    [post_date] => 2019-11-10
-                )
-
             [0] => Array
                 (
                     [id] => 1
