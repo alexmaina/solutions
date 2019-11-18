@@ -1,6 +1,6 @@
 <?php
 /**
-The code
+//alexmaina@afroscholar.info 18-11-2019
 The code snippet below answers the following question posted 
 on stackoverflow
 https://stackoverflow.com/questions/58856118/group-by-date-range-in-mysql-and-php/58856724?noredirect=1#comment104025532_58856724
