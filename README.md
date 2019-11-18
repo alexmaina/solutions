@@ -18,8 +18,8 @@ The assumption is that the table schema in question looks like this(see table st
 | Content Cell  | Content Cell  |
 
 `
-| id 	| post_date  	| text        	|
-|----	|------------	|-------------	|
+|id | post_date  | text         |
+|-- | ---------  | -------------|
 | 1  	| 2019-11-10 	| xsomething  	|
 | 2  	| 2019-11-10 	| ysomething  	|
 | 3  	| 2019-11-11 	| ysomething  	|
