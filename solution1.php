@@ -113,8 +113,7 @@ $sth = $con->prepare($sql1);
 }
 
 
-/**
-The next step is to convert the two-dimensional arrays into
+/**The next step is to convert the two-dimensional arrays into
 associative arrays.see https://www.geeksforgeeks.org/multidimensional-arrays-in-php/
 https://stackoverflow.com/questions/5384847/adding-an-item-to-an-associative-array.
 item'id' was added by simply typing "'id' => $x++," inside the array. Also note the variable $x set to 
@@ -141,8 +140,7 @@ foreach($array5 as $y => $z){
 	//$r += ['id' => $x++];
 }
 
-/**
-Lastly, combine the two associative arrays $q and $r
+/**Lastly, combine the two associative arrays $q and $r
 **/
 $post_range = [
 	"'2019-11-10' AND '2019-11-13'" => $q,
@@ -150,9 +148,7 @@ $post_range = [
 echo "<pre>";print_r($post_range);echo "</pre>";
 
 
-/**
-
-The desired result can be seen below.
+/**The desired result can be seen below.
 Lines 157-247 delivers the results below.
 
 Array
