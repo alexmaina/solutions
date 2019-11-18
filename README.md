@@ -1,10 +1,11 @@
 # Solutions
 ## Problem 1: How to group data by date range and creating a multi-imensional array based on these date ranges.
 
-A question was raised in stack overflow on how to group records in a table by date_range and create a multi-dimensional array based on these groups.Here is the [question](https://stackoverflow.com/questions/58856118/group-by-date-range-in-mysql-and-php/58856724#58856724/).
+A question was raised on [stack overflow](https://stackoverflow.com/) on how to group records in a table by date_range and create a multi-dimensional array based on these groups.This type of problem always appears in the day-to-day work of a data scientist.
+Here is the [question](https://stackoverflow.com/questions/58856118/group-by-date-range-in-mysql-and-php/58856724#58856724/).
 
 
-The assumption is that the table schema in question looks like this(see table structure below named `posts`):
+While answering the question, the assumption was that the table schema in question looks like this(see table structure below named `posts`):
 
 |id | post_date  | text         |
 |-- | ---------  | -------------|
@@ -21,7 +22,7 @@ The assumption is that the table schema in question looks like this(see table st
 
 > Table1. posts
 
-The desired results is an array with the following structure:
+The desired results according to the question is an array with the following structure:
 
 
     ['2019-11-10' AND '2019-11-13'] => Array
@@ -113,5 +114,8 @@ The desired results is an array with the following structure:
         )
 
 )
+
+See solution.php for more details.
+
 
 
