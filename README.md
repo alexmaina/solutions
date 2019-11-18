@@ -15,6 +15,15 @@ Array
                     [post_date] => 2019-11-10
                 )
 
+
+            0] => Array
+                (
+                    [id] => 1
+                    [post_id] => 1
+                    [text] => xsomething
+                    [post_date] => 2019-11-10
+                )
+
             [1] => Array
                 (
                     [id] => 2
