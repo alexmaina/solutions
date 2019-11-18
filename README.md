@@ -22,8 +22,6 @@ The assumption is that the table schema in question looks like this(see table st
 
 The desired results is an array with the following structure
 `
-    ['2019-11-10' AND '2019-11-13'] => Array
-        (
             [0] => Array
                 (
                     [id] => 1
