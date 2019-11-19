@@ -119,7 +119,10 @@ item'id' was added by simply typing "'id' => $x++," inside the array. Also note 
 1 and auto_increments.
 **/
 $x= 1;
-//create an associative array  $q of $array[]
+/**create an associative array  $q of $array[]
+You create an asscociative array like this $q[] = []. In our case the indexes of the values
+of the arrays $array and $array5 were used to create the two associative arrays.
+**/
 foreach($array as $y => $z){
 	$q[] = ['id' => $x++,
 		'post_id'=>$z[0],
