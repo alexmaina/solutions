@@ -49,7 +49,7 @@ Table1. posts
 The task at hand requires us to build an associative array consisting of two distinctive 
 two-dimensional arrays based on pre-defined date ranges.('2019-11-10' AND  '2019-11-13')
 and ('2019-01-01' AND  '2019-01-15')
-The first query we run is a MySQL CASE Statement(lines 59-65)**/
+The first query we run is a MySQL CASE Statement(lines 63-69)**/
 
 require 'data.php';
 //connect to db
