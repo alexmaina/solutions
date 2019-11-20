@@ -10,11 +10,13 @@ https://stackoverflow.com/questions/58856118/group-by-date-range-in-mysql-and-ph
 
 
 First and foremost the table *posts* was created as follows:
-	CREATE TABLE posts(id int(11) not null auto_increment primary key, 
-	post_date varchar(60), text varchar(40));
+	
+CREATE TABLE posts(id int(11) not null auto_increment primary key, 
+post_date varchar(60), text varchar(40));
 
-Secondly, insert data into the table:
-	INSERT INTO posts(post_date, text)
+Secondly, insert data into the table posts created on line 14 above:
+	
+INSERT INTO posts(post_date, text)
 	VALUES
     		('2019-11-10','xsomething'),
 		('2019-11-10','ysomething'),
@@ -49,7 +51,7 @@ Table1. posts
 The task at hand requires us to build an associative array consisting of two distinctive 
 two-dimensional arrays based on pre-defined date ranges.('2019-11-10' AND  '2019-11-13')
 and ('2019-01-01' AND  '2019-01-15')
-The first query we run is a MySQL CASE Statement(lines 63-69)**/
+The first query we run is a MySQL CASE Statement(lines 65-71)**/
 
 require 'data.php';
 //connect to db
