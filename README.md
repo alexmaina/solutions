@@ -1,11 +1,13 @@
 # Solutions
 ## Problem 1: How to group data by date range and creating a multi-imensional array based on these date ranges.
 
-A question was raised on [stack overflow](https://stackoverflow.com/) on how to group records in a table by date_range and create a multi-dimensional array based on these groups.This type of problem always appears in the day-to-day work of a data scientist.
+A question was raised on [stack overflow](https://stackoverflow.com/) on how to group records in a table by date_range and create a multi-dimensional array based on these groups.
+
+Working with arrays is part of the day-to-day work of a data scientist.
 Here is the [question](https://stackoverflow.com/questions/58856118/group-by-date-range-in-mysql-and-php/58856724#58856724/).
 
 
-While answering the question, the assumption was that the table schema in question looks like this(see table structure below named `posts`):
+While(i was) answering the question, the assumption was that the table schema in question looks like this(see table structure below named `posts`):
 
 |id | post_date  | text         |
 |-- | ---------  | -------------|
