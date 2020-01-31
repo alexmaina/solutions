@@ -209,7 +209,7 @@ Array
         (
             [0] => Array
                 (
-                    [id] => 6
+                    [id] => 1
                     [post_id] => 6
                     [text] => xysomething
                     [post_date] => 2019-01-01
@@ -217,7 +217,7 @@ Array
 
             [1] => Array
                 (
-                    [id] => 7
+                    [id] => 2
                     [post_id] => 7
                     [text] => xysomething
                     [post_date] => 2019-01-05
@@ -225,7 +225,7 @@ Array
 
             [2] => Array
                 (
-                    [id] => 8
+                    [id] => 3
                     [post_id] => 8
                     [text] => ysomething
                     [post_date] => 2019-01-06
@@ -233,7 +233,7 @@ Array
 
             [3] => Array
                 (
-                    [id] => 9
+                    [id] => 4
                     [post_id] => 9
                     [text] => xsomething
                     [post_date] => 2019-01-10
@@ -241,7 +241,7 @@ Array
 
             [4] => Array
                 (
-                    [id] => 10
+                    [id] => 5
                     [post_id] => 10
                     [text] => ysomething
                     [post_date] => 2019-01-11
