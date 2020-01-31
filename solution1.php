@@ -1,7 +1,7 @@
 <?php
 
 //Alex Maina 
-//Librarian Kenya Medical Research Institute-Kilifi
+Librarian Kenya Medical Research Institute-Kilifi
 //alexmaina@afroscholar.info 
 //Date: 18-11-2019
 /**The code snippet below answers the following question posted 
