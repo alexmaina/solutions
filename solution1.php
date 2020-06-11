@@ -156,7 +156,7 @@ echo "<pre>";print_r($post_range);echo "</pre>";
 
 
 /**The desired result can be seen below.
-Lines 157-247 delivers the results below.
+Lines 152-155 delivers the results below.
 
 Array
 (
